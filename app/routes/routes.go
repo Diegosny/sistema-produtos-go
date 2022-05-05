@@ -7,5 +7,6 @@ import (
 
 func Routes() {
 	http.HandleFunc("/", controller.Index)
-	http.HandleFunc("/create", controller.Store)
+	http.HandleFunc("/create", controller.Create)
+	http.HandleFunc("/store", controller.Store)
 }
