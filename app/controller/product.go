@@ -42,6 +42,4 @@ func Store(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	values := r.PostForm
-
 }
